@@ -5,7 +5,6 @@ from sqlalchemy.engine import create_engine
 
 
 def load_data(messages_filepath, categories_filepath):
-
     # load messages dataset
     messages = pd.read_csv(messages_filepath)
 
